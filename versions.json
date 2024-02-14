@@ -3,7 +3,7 @@
         "version_test": {
             "version": "1.0.0",
             "notes": [
-                "-> Test 1", "-> Test 2", "-> Test 3"
+                "Test 1", "Test 2", "Test 3"
             ]
         }
     }
