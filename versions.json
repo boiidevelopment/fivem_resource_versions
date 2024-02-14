@@ -1,10 +1,48 @@
 {
     "resources": {
-        "version_test": {
+        "boii_loadscreen_beta": {
             "version": "1.0.0",
-            "notes": [
-                "Test 1", "Test 2", "Test 3"
-            ]
+            "notes": []
+        },
+        "boii_loadscreen_gamma": {
+            "version": "1.0.0",
+            "notes": []
+        },
+        "boii_minigames": {
+            "version": "0.0.1",
+            "notes": []
+        },
+        "boii_target": {
+            "version": "0.1.0",
+            "notes": []
+        },
+        "boii_proputil": {
+            "version": "1.0.0",
+            "notes": []
+        },
+        "boii_ui": {
+            "version": "0.1.4",
+            "notes": []
+        },
+        "boii_utils": {
+            "version": "1.1.0",
+            "notes": []
+        },
+        "boii_drugplanes": {
+            "version": "0.0.3",
+            "notes": []
+        },
+        "boii_jobcenter": {
+            "version": "0.0.1",
+            "notes": []
+        },
+        "boii_trickortreat": {
+            "version": "0.0.1",
+            "notes": []
+        },
+        "boii_rptests": {
+            "version": "1.0.2",
+            "notes": []
         }
     }
 }
