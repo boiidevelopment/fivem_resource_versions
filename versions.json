@@ -13,8 +13,11 @@
             "notes": []
         },
         "boii_target": {
-            "version": "0.1.0",
-            "notes": []
+            "version": "0.2.0",
+            "notes": [
+                "Improvements to target zone functions.", 
+                "Added functions 'add_player' + 'add_vehicle' + 'remove_zone'."
+            ]
         },
         "boii_proputil": {
             "version": "1.0.0",
