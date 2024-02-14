@@ -28,8 +28,12 @@
             "notes": []
         },
         "boii_utils": {
-            "version": "1.1.0",
-            "notes": []
+            "version": "1.2.0",
+            "notes": [
+                "Improved conversions for notification types.",
+                "Added functions - frameworks: 'get_player_id', 'get_identity_by_id' - geometry: 'calculate_rotation_matrix', 'translate_point_to_local_space', 'is_point_in_oriented_box'.",
+                "New section: versions - handles version checking."
+            ]
         },
         "boii_drugplanes": {
             "version": "0.0.3",
