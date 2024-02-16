@@ -28,11 +28,10 @@
             "notes": []
         },
         "boii_utils": {
-            "version": "1.2.0",
+            "version": "1.2.1",
             "notes": [
-                "Improved conversions for notification types.",
-                "Added functions - frameworks: 'get_player_id', 'get_identity_by_id' - geometry: 'calculate_rotation_matrix', 'translate_point_to_local_space', 'is_point_in_oriented_box'.",
-                "New section: versions - handles version checking."
+                "Fixed mistype options variable causing notifications to fail",
+                "Refactored function get_identity_by_id no longer uses database"
             ]
         },
         "boii_drugplanes": {
