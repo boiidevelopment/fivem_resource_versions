@@ -28,10 +28,10 @@
             "notes": []
         },
         "boii_utils": {
-            "version": "1.2.1",
+            "version": "1.2.2",
             "notes": [
-                "Fixed mistype options variable causing notifications to fail",
-                "Refactored function get_identity_by_id no longer uses database"
+                "Added function get_players to get all connected players based on framework",
+                "Edited function get_identity_by_id to use new get_players fw function"
             ]
         },
         "boii_drugplanes": {
