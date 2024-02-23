@@ -24,8 +24,11 @@
             "notes": []
         },
         "boii_ui": {
-            "version": "0.1.4",
-            "notes": []
+            "version": "0.2.0",
+            "notes": [
+                "Added version check.",
+                "Added box shadow support for elements.",
+                "Fixed should_close context menu parameter."
         },
         "boii_utils": {
             "version": "1.2.2",
