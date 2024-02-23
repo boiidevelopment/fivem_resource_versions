@@ -13,10 +13,9 @@
             "notes": []
         },
         "boii_target": {
-            "version": "0.2.0",
+            "version": "0.2.1",
             "notes": [
-                "Improvements to target zone functions.", 
-                "Added functions 'add_player' + 'add_vehicle' + 'remove_zone'."
+                "Fixed issue with item checks only checking for the first item, will now filter correctly.", 
             ]
         },
         "boii_proputil": {
