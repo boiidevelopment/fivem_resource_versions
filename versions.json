@@ -58,8 +58,13 @@
             ]
         },
         "boii_pawnshop": {
-            "version": "1.0.0",
-            "notes": []
+            "version": "1.0.1",
+            "notes": [
+                "Fixed major exploit issue with selling items to stores.",
+                "Fixed issue due to missing current_prices table.",
+                "Fixed issue with dialogue conversation misnamed.",
+                "Fixed issue with dynamic_pricing toggle not being updated correctly."
+            ]
         },
         "boii_atmheists": {
             "version": "1.0.0",
