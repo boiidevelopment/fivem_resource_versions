@@ -69,6 +69,10 @@
         "boii_atmheists": {
             "version": "1.0.0",
             "notes": []
+        },
+        "boii_chat": {
+            "version": "1.0.0",
+            "notes": []
         }
     }
 }
