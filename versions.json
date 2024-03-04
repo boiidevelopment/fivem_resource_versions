@@ -60,10 +60,7 @@
         "boii_pawnshop": {
             "version": "1.0.1",
             "notes": [
-                "Fixed major exploit issue with selling items to stores.",
-                "Fixed issue due to missing current_prices table.",
-                "Fixed issue with dialogue conversation misnamed.",
-                "Fixed issue with dynamic_pricing toggle not being updated correctly."
+                "**ESSENTIAL** Replaced escrow functions handling balances / inventory modification with new utils updated functions"
             ]
         },
         "boii_atmheists": {
