@@ -60,7 +60,8 @@
         "boii_pawnshop": {
             "version": "1.0.2",
             "notes": [
-                "**ESSENTIAL** Replaced escrow functions handling balances / inventory modification with new utils updated functions"
+                "Fixed issue with store balance types not being adjusted by config values.",
+                "Replaced escrow functions handling balances / inventory modification with new utils updated functions."
             ]
         },
         "boii_atmheists": {
