@@ -31,10 +31,14 @@
             ]
         },
         "boii_utils": {
-            "version": "1.2.2",
+            "version": "1.3.0",
             "notes": [
-                "Added function get_players to get all connected players based on framework",
-                "Edited function get_identity_by_id to use new get_players fw function"
+                "Removed change camera settings makes more sense to keep these internal in scripts.",
+                "Added function 'get_player_jobs', returns players job/s data.",
+                "Added function 'player_has_job', used to check if a player has a specific job/s with optional on duty check.",
+                "Fixed issue with permission checks for commands.",
+                "Refactor groups to allow inclusion of player data instead of array of player ids.",
+                "Updated table_contains to support checking nested tables."
             ]
         },
         "boii_drugplanes": {
