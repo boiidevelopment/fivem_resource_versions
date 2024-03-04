@@ -58,7 +58,7 @@
             ]
         },
         "boii_pawnshop": {
-            "version": "1.0.1",
+            "version": "1.0.2",
             "notes": [
                 "**ESSENTIAL** Replaced escrow functions handling balances / inventory modification with new utils updated functions"
             ]
