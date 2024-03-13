@@ -13,9 +13,12 @@
             "notes": []
         },
         "boii_target": {
-            "version": "0.2.1",
+            "version": "0.3.0",
             "notes": [
-                "Fixed issue with item checks only checking for the first item, will now filter correctly." 
+                "Fixed issue with distance checks not actually working.",
+                "Fixed issue with targeting models now works correctly.",
+                "Reversed menu layout now populates right -> left instead of left -> right so targets with one option populate the way everyones used too.",
+                "Made some adjustments to debugging functions."
             ]
         },
         "boii_proputil": {
