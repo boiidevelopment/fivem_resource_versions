@@ -74,10 +74,9 @@
             ]
         },
         "boii_pawnshop": {
-            "version": "1.0.2",
+            "version": "1.0.3",
             "notes": [
-                "Fixed issue with store balance types not being adjusted by config values.",
-                "Replaced escrow functions handling balances / inventory modification with new utils updated functions."
+                "Fixed issues with ox_target being created incorrectly on peds."
             ]
         },
         "boii_atmheists": {
