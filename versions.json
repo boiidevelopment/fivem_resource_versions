@@ -44,13 +44,9 @@
             ]
         },
         "boii_utils": {
-            "version": "1.4.0",
+            "version": "1.4.1",
             "notes": [
-                "Moved all files into folders to allow for better future organisation.",
-                "Added boii dev branding back into top of files.",
-                "Added new section for handling resource cooldowns.",
-                "Fixed issue with missing callback to retrieve a singular skills data.",
-                "Updated debug logs to include name of invoking resource."
+                "Replaced use of esx_legacy for es_extended throughout as was causing issue."
             ]
         },
         "boii_drugplanes": {
