@@ -26,21 +26,10 @@
             "notes": []
         },
         "boii_ui": {
-            "version": "1.0.0",
+            "version": "1.0.1",
             "notes": [
-                "Replaced old boii development branding with new throughout.",
-                "Replaced default UI styles to fall in line with other releases and boii_rp framework setup.",
-                "Fixed issue with cancelling progressbar.",
-                "Fixed issue with notification alignment not saving.",
-                "Fixed issue with notification positions not saving.",
-                "Replace notification type: information with info to save on typing.",
-                "Added in a 'disabled' option for context menu items, disabled will now be greyed out and not interactable.",
-                "Added in a 'interactable' option for context menu items, if this is false the menu option will be inactive however it will not be greyed out.",
-                "Added support for action_type = 'function' for main and sub context menu options.",
-                "Fixed issue with drop down contenxt menu options not flexing correctly on multiple clicks.",
-                "Added multiline message support for context menu input fields.",
-                "Added grid overlay to settings when positioning items and hid tablet UI so it is not in the way.",
-                "Replaced use of left & right for flex-start & flex-end respectively to fix alignment issues."
+                "Corrected issue with notification box shadows.",
+                "Corrected issue with input options not adding values to the event params correctly."
             ]
         },
         "boii_utils": {
@@ -86,7 +75,11 @@
         "boii_hobolife": {
             "version": "1.0.0",
             "notes": []
-        }
+        },
+        "boii_items": {
+            "version": "1.0.0",
+            "notes": []
+        } 
     }
 }
   
