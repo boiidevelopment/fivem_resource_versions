@@ -61,7 +61,7 @@
         "boii_pawnshop": {
             "version": "1.0.4",
             "notes": [
-                "Fixed major issue with purchasing items, now corretly removes/adds funds."
+                "Fixed major issue with purchasing items, now correctly removes/adds funds."
             ]
         },
         "boii_atmheists": {
