@@ -59,9 +59,9 @@
             ]
         },
         "boii_pawnshop": {
-            "version": "1.0.3",
+            "version": "1.0.4",
             "notes": [
-                "Fixed issues with ox_target being created incorrectly on peds."
+                "Fixed major issue with purchasing items, now corretly removes/adds funds."
             ]
         },
         "boii_atmheists": {
