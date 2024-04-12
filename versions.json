@@ -59,9 +59,9 @@
             ]
         },
         "boii_pawnshop": {
-            "version": "1.0.4",
+            "version": "1.0.5",
             "notes": [
-                "Fixed major issue with purchasing items, now correctly removes/adds funds."
+                "Moved the boii_target remove_target export as it was creating errors for none boii_target users."
             ]
         },
         "boii_atmheists": {
