@@ -33,9 +33,12 @@
             ]
         },
         "boii_utils": {
-            "version": "1.4.1",
+            "version": "1.5.0",
             "notes": [
-                "Replaced use of esx_legacy for es_extended throughout as was causing issue."
+                "Added new ui section. This is a section for creating bridges for various UI elements, progress bars, notifications etc.",
+                "Added new zones section. This section is for creating zones on the map and checking if players are in them for example safe zones.",
+                "Added new update_inventory_data function currently only supported for boii framework will update for others asap.",
+                "Added new geometry function line_intersects_circle to check if raycast line intercepts a circular space." 
             ]
         },
         "boii_drugplanes": {
