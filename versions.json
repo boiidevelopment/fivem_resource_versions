@@ -84,8 +84,10 @@
             "notes": []
         },
         "boii_statuses": {
-            "version": "0.0.1",
-            "notes": []
+            "version": "0.1.1",
+            "notes": [
+                "Fixed buffs not being removed after duration timeout"
+            ]
         },
         "boii_core": {
             "version": "0.1.0",
