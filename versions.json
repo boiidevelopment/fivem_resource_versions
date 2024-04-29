@@ -33,9 +33,12 @@
             ]
         },
         "boii_utils": {
-            "version": "1.5.1",
+            "version": "1.5.2",
             "notes": [
-                "Added missing config.ui section into configs for github version."
+                "Replaced use of `boii_rp` for `boii_core`.",
+                "Added new function `get_player_job_name` to do exactly as it sounds get a players job name.",
+                "Added new function `get_shared_job_data` to retrieve job details for multiple frameworks.",
+                "Added config option for boii_statuses that was missing required by `modify_statuses` function."
             ]
         },
         "boii_drugplanes": {
