@@ -33,12 +33,13 @@
             ]
         },
         "boii_utils": {
-            "version": "1.5.2",
+            "version": "1.6.0",
             "notes": [
-                "Replaced use of `boii_rp` for `boii_core`.",
-                "Added new function `get_player_job_name` to do exactly as it sounds get a players job name.",
-                "Added new function `get_shared_job_data` to retrieve job details for multiple frameworks.",
-                "Added config option for boii_statuses that was missing required by `modify_statuses` function."
+                "Moved all utils tables into configs instead of in being at bottom of individual files. Local functions are still assigned here.",
+                "Removed empty vehicle keys table from server config ideas for this have changed.",
+                "Modified licence update function to accept table params.",
+                "Split ui.lua into two files notifications.lua and progressbar.lua.",
+                "Updated readme file as tebex version was missing a readme."
             ]
         },
         "boii_drugplanes": {
