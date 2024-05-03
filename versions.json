@@ -55,11 +55,18 @@
             "notes": []
         },
         "boii_rptests": {
-            "version": "1.0.5",
+            "version": "1.1.0",
             "notes": [
-                "Fixed issue with boat theory test not giving pass grade on completion.",
-                "Fixed issue with retreiving theory test tablets.",
-                "Updated readme notes for qb-inventory useitem changes."
+                "Fixed issue with ox_target 1.14.0 breaking peds with more than action assigned.",
+                "Fixed issue with licence data not being updated correctly, this requires utils v1.6.0.",
+                "Fixed issue with esx not retrieving player data correctly to set name on tablet, this also requires utils v1.6.0.",
+                "Fixed issue with ox_inventory removing weapon given by firearms test and added a config toggle for ox_inventory users. This must be set to true if using ox_inventory.",
+                "Added note to ox_inventory readme to cover toggling this within config.",
+                "Replaced all use of utils.notify.send for new utils ui bridge utils.ui.notify.",
+                "Added new section show_licence to config here you can set the range and if the source player should be included when showing licences.",
+                "Added note to keys section directing to utils keys list in case people want to change keys.",
+                "Added clear vehicles in area to the trailer spawn for truck test so cars do not spawn underneath.",
+                "Added missing var to end of firearms test that was stopping people taking a second test without leaving server first."
             ]
         },
         "boii_pawnshop": {
