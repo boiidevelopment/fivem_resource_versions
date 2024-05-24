@@ -88,8 +88,13 @@
             "notes": []
         },
         "boii_items": {
-            "version": "0.1.0",
-            "notes": []
+            "version": "0.2.0",
+            "notes": [
+                "Removed export file from fxmanifest as no longer used.",
+                "Added files section into fxmanifest.",
+                "Added assets folder to allow for items to hold the images required by scripts.",
+                "Added check and logging for duplicated items on item register."
+            ]
         },
         "boii_statuses": {
             "version": "0.1.1",
