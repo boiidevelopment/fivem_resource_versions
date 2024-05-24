@@ -30,13 +30,20 @@
             ]
         },
         "boii_utils": {
-            "version": "1.6.0",
+            "version": "1.7.0",
             "notes": [
-                "Moved all utils tables into configs instead of in being at bottom of individual files. Local functions are still assigned here.",
-                "Removed empty vehicle keys table from server config ideas for this have changed.",
-                "Modified licence update function to accept table params.",
-                "Split ui.lua into two files notifications.lua and progressbar.lua.",
-                "Updated readme file as tebex version was missing a readme."
+                "Blips: Updated notes for some of the functions.",
+                "Framework: Modified server side get_balance function to return item cash for boii_core if balance_type = cash.",
+                "Framework: Added new callback to allow retrieving players id on client side.",
+                "UI: Corrected fxmanifest load order as progressbar could not access notify.",
+                "UI: Fixed issue with progressbar bridge notifications",
+                "Groups: Added a specified leader option to groups.",
+                "Groups: Modified group setup to allow for having a group image.",
+                "Groups: Added new server functions is_member and is_leader to check if player is member or leader of a group respectively.",
+                "Groups: Added new server function get_groups_of_type to retrieve all groups of a specified type.",
+                "Groups: Added new server function close_group to allow leaders to close a group.",
+                "Groups: Modified add function to now accept a params of player_details when adding players instead of using identity info directly.",
+                "Dates: Added new function to get time difference in seconds between two timestamps."
             ]
         },
         "boii_drugplanes": {
