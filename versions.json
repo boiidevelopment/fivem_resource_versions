@@ -13,12 +13,9 @@
             "notes": []
         },
         "boii_target": {
-            "version": "0.3.0",
+            "version": "0.4.0",
             "notes": [
-                "Fixed issue with distance checks not actually working.",
-                "Fixed issue with targeting models now works correctly.",
-                "Reversed menu layout now populates right -> left instead of left -> right so targets with one option populate the way everyones used too.",
-                "Made some adjustments to debugging functions."
+                "Updated default style to follow theme of other free boii resources."
             ]
         },
         "boii_proputil": {
