@@ -92,12 +92,12 @@
             "notes": []
         },
         "boii_items": {
-            "version": "0.2.0",
+            "version": "0.3.0",
             "notes": [
-                "Removed export file from fxmanifest as no longer used.",
-                "Added files section into fxmanifest.",
-                "Added assets folder to allow for items to hold the images required by scripts.",
-                "Added check and logging for duplicated items on item register."
+                "Added config.target toggle to client side init.lua.",
+                "Fixed issue with consume_item function not checking for empty results correctly.",
+                "Added setup instructions for qb-inventory (new), ps-inventory & ox_inventory.",
+                "Added support for qb-target + ox_target."
             ]
         },
         "boii_statuses": {
