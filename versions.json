@@ -82,8 +82,10 @@
             "notes": []
         },
         "boii_hobolife": {
-            "version": "1.0.0",
-            "notes": []
+            "version": "1.0.1",
+            "notes": [
+                "Added in readme sections containing item lists for other cores."
+            ]
         },
         "boii_items": {
             "version": "0.3.1",
