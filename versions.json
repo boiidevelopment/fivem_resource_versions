@@ -32,14 +32,14 @@
             ]
         },
         "boii_utils": {
-            "version": "1.7.1",
+            "version": "1.8.3",
             "notes": [
-                "Framework: Modified function get_balance_by_type for boii_core to add a default value to cash if players do not have any.",
-                "UI: Fixed issue with unpacking args for notifications.",
-                "UI: Added boii dev branding to top of files.",
-                "UI: Removed qb progress support for now, did not work will fix and add again at a later date.",
-                "FXManifest: Added shared import for ox_lib uncomment to use; required for ox_lib progressbar.",
-                "FXManifest: Moved client framework file to before ui files."
+                "Player: Modified play_animation now supports using multiple props.",
+                "Framework: Added new function register_item to allow for registering items across different frameworks.",
+                "Framework: Added new function get_framework as a resource was behaving weirdly registering items, just hangs until framework is not nil.",
+                "Notifications: Added missing local causing notifications to not work at all.",
+                "Notifications: Fixed mistype with notify events was using TriggerEvent should be TriggerClientEvent.",
+                "DrawText: Fixed mistype causing drawtext to fail due to missing options."
             ]
         },
         "boii_drugplanes": {
