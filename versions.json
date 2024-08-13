@@ -138,6 +138,10 @@
                 "Removed development debug prints and chat spam messages."
             ]
         },
+        "boii_hunting": {
+            "version": "1.0.1",
+            "notes": []
+        }
     }
 }
   
