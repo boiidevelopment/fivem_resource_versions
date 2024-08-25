@@ -139,11 +139,10 @@
             ]
         },
         "boii_hunting": {
-            "version": "1.0.1",
+            "version": "1.0.2",
             "notes": [
-                "Fixed exploit with selling items.",
-                "Added version checking.",
-                "Removed some left over debug prints."
+                "Removed debug prints",
+                "Fixed issue with selling stores not opening through boii ui dialogue."
             ]
         }
     }
