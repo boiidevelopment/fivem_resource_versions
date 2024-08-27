@@ -109,10 +109,16 @@
             "notes": []
         },
         "boii_drugsales": {
-            "version": "1.0.2",
+            "version": "1.1.0",
             "notes": [
-                "Added usable item for dealer phone into `server/main.lua` using `boii_items` is now optional.",
-                "Added config option to toggle use of `boii_items`."
+                "Resource is now entirely source available.",
+                "Added a fix for item registering sometimes not registering phone item until script restart.",
+                "Added fix for being able to sell drugs to bulk dealer ped.",
+                "Added XP rewards to dealing and deliveries, this was forgotten about and was only added to bulk.",
+                "Refactored some events to use reusable functions.",
+                "Removed client config entirely was only used to set target version now this is in server/config.lua.",
+                "Removed config option for boii_items this is no longer required with new utils item setup method.",
+                "Removed left over test command."
             ]
         },
         "boii_crafting": {
