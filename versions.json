@@ -152,10 +152,9 @@
             ]
         },
         "boii_hunting": {
-            "version": "1.0.2",
+            "version": "1.0.3",
             "notes": [
-                "Removed debug prints",
-                "Fixed issue with selling stores not opening through boii ui dialogue."
+                "Removed has item check for skinning, players are now required to have a WEAPON_KNIFE equiped to skin."
             ]
         }
     }
