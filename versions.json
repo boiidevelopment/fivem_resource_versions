@@ -129,9 +129,9 @@
             ]
         },
         "boii_crafting": {
-            "version": "1.0.1",
+            "version": "1.0.2",
             "notes": [
-                "Resource is now entirely source available."
+                "Fixed an issue where crafting locations could not be accessed if player / job locks were disabled."
             ]
         },
         "boii_dispensaries": {
