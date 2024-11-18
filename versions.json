@@ -32,18 +32,12 @@
             ]
         },
         "boii_utils": {
-            "version": "1.8.5",
+            "version": "1.8.7",
             "notes": [
-                "Shared: data/default_ped_styles.lua: Now stores a copy of the default styles wanted this to ensure new characters always have defaults applied.",
-                "Shared: data/default_ped_styles.lua: New function 'get_default_styles()' to allow for retreiving defaults.",
-                "Shared: data/default_ped_styles.lua: Switched 'male' and 'female' to 'm' and 'f' respectively now lines up with boii_items.",
-                "Shared: data/default_ped_styles.lua: New function 'reset_styles()' used to reset custom styles back to defaults to avoid overlap.",
-                "Client: blips.lua: Refactor to all functions, blips are now indexed instead of a sequential array.",
-                "Client: developer.lua: Removed left over local function assignments.",
-                "Client: draw.lua: Refactored 'sprite_poly()' function now accepts a mode to use either DrawSpritePoly or DrawSpritePoly_2.",
-                "Client: draw.lua: Removed function 'sprite_poly2()' no longer needed with new changes to 'sprite_poly()'.",
-                "Server: date_time.lua: Refactored some functions.",
-                "Server: bridges/frameworks.lua: Fixed issue with ox_inventory calls looking for count_table."
+                "server/bridges/frameworks.lua: Fixed issue with has_player_job not returning correct job status.",
+                "server/bridges/frameworks.lua: Fixed the "count" issue with ox_inventory on has_item checks.",
+                "server/bridges/frameworks.lua: Removed the automatic sql table creation.",
+                "sqls: New folder added with sqls for internal systems instead of installing on load."
             ]
         },
         "boii_drugplanes": {
