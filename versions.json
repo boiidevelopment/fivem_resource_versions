@@ -152,6 +152,23 @@
             "notes": [
                 "Removed has item check for skinning, players are now required to have a WEAPON_KNIFE equiped to skin."
             ]
+        },
+        "boii_interact": {
+            "version": "1.0.1",
+            "notes": [
+                "Removed keys table, no longer needed as utils is imported for multiframework functionality already.",
+                "Modified zones to be stored by invoking resource.",
+                "Added new function `clear_zones_for_resource` to clear all zones for a specified resource. Use `exports.boii_interact:clear_zones()`.",
+                "Added server side version checking."
+            ]
+        },
+        "boii_adventcalendar": {
+            "version": "1.0.0",
+            "notes": []
+        },
+        "boii_pettycrimes": {
+            "version": "1.0.0",
+            "notes": []
         }
     }
 }
