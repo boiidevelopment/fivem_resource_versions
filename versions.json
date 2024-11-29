@@ -169,6 +169,10 @@
         "boii_pettycrimes": {
             "version": "1.0.0",
             "notes": []
+        },
+        "boii_fishing": {
+            "version": "1.0.0",
+            "notes": []
         }
     }
 }
