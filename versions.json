@@ -173,6 +173,14 @@
         "boii_fishing": {
             "version": "1.0.0",
             "notes": []
+        },
+        "boii_moneywash": {
+            "version": "1.0.0",
+            "notes": [
+                "Changed how placement keys are handled, now pulls key list once from utils instead of for each key and keys are mapped more efficiently.",
+                "`*.lua` added to fxmanifest as loader file was not viewable due to escrow ignore.",
+                "Added version checks"
+            ]
         }
     }
 }
