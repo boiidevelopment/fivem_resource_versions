@@ -181,6 +181,12 @@
                 "`*.lua` added to fxmanifest as loader file was not viewable due to escrow ignore.",
                 "Added version checks"
             ]
+        },
+        "boii_weed": {
+            "version": "0.0.1",
+            "notes": [
+                "test new versioning"
+            ]
         }
     }
 }
