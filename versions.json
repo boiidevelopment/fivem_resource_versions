@@ -182,10 +182,10 @@
                 "Added version checks"
             ]
         },
-        "boii_drugs": {
-            "version": "0.0.1",
+        "boii_weed": {
+            "version": "0.0.0",
             "notes": [
-                "test new versioning"
+                "Initial release"
             ]
         }
     }
