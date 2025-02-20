@@ -183,9 +183,13 @@
             ]
         },
         "boii_weed": {
-            "version": "0.0.0",
+            "version": "0.0.1",
             "notes": [
-                "Initial release"
+                "! Plants: Fixed an issue with ID mismatches and refactored save plant function the query was basically unreadable..",
+                "! XP: Refactor and fix for adding growing xp all now works correctly and its easier to read.",
+                "! Tables: Fixed issue with table XP not updating on UI, changed dui to only display the tables Public level and fixed issue with it not updating when used, view personal in guidebook.",
+                "- Removed left over unused toggle_guide function.",
+                "- Removed left over debug prints from various files."
             ]
         }
     }
