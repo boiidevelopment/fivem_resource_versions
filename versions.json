@@ -183,13 +183,21 @@
             ]
         },
         "boii_weed": {
-            "version": "0.0.1",
+            "version": "0.0.2",
             "notes": [
-                "! Plants: Fixed an issue with ID mismatches and refactored save plant function the query was basically unreadable..",
-                "! XP: Refactor and fix for adding growing xp all now works correctly and its easier to read.",
-                "! Tables: Fixed issue with table XP not updating on UI, changed dui to only display the tables Public level and fixed issue with it not updating when used, view personal in guidebook.",
-                "- Removed left over unused toggle_guide function.",
-                "- Removed left over debug prints from various files."
+                "+ Config: Added config.altitudes to store altitude modifers.",
+                "! Config: Update timer set back to default 1 min.",
+                "! Plants Server: Modified degrade cycle, now works correctly and incorporates all environment effects.",
+                "! Plants Server: Plant genders are now saved to database correctly.",
+                "! Plants Server: Male plants now return seeds on harvest with a chance for a % of yield to be female seeds.",
+                "! Plants Client: Feed action now displays the correct message instead of destroying.",
+                "! Plants Client: Added find ground to model change event so changed plants stop floating.",
+                "+ DUI CSS: Added grid class for progressbars.",
+                "! PlantDUI: Added grid to progressbars container to allow for a single bar on tables and flex on plants.",
+                "! PlantDUI: Added indicator to top right of header for M + F for male/feminized plants.",
+                "! TableDUI: UI now shows the tables XP type instead of it only being shown when processing.",
+                "! DUI: Added keypress cooldowns to prevent spamming.",
+                "! Readme OX_ITEMS: Item list now includes everything it should do for ox inv."
             ]
         }
     }
