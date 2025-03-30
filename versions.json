@@ -189,6 +189,10 @@
                 "! Plants server: Now sends back to client to remove is_placing flag if placing fails due to range.",
                 "! Loader: Updated to use new key_utils over fivem_utils."
             ]
+        },
+        "boii_drivingjobs": {
+            "version": "0.0.0",
+            "notes": []
         }
     }
 }
